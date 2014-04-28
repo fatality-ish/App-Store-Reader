@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="10dp">
+  <!-- Name Label -->
+  <TextView android:id="@+id/name_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            />
+  <!-- Artist Label -->
+  <TextView android:id="@+id/artist_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+  <!-- Price Label -->
+  <TextView android:id="@+id/price_label"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		/>
+  <!-- Release Date Label -->
+  <TextView android:id="@+id/release_date_label"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		/>
+  <!--  Buttons -->
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+		      <Button 
+		      android:id="@+id/copy_button"		      
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:text="@string/copy"/>
+		 	 <Button 
+		      android:id="@+id/share_button"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:text="@string/share"/>
+		 	 <Button 
+		      android:id="@+id/favorite_button"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:text="@string/favorite"/>
+  </LinearLayout>"
+  
+  <View 
+      android:layout_width="match_parent"
+      android:layout_height="10dip"/>
+  <!-- Summary Label -->
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+	   <TextView android:id="@+id/summary_label"
+	      		android:layout_width="fill_parent"
+	      		android:layout_height="wrap_content"
+	      		/>   
+  </ScrollView>
+  
+</LinearLayout>
